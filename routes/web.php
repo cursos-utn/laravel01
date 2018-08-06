@@ -26,5 +26,14 @@ Route::get('/prueba/{id}/lindo', 'PruebaController@ver_lindo');
 Route::get('/sesion/guardar/{nombre}', 'PruebaController@guardar_sesion');
 Route::get('/sesion/ver', 'PruebaController@ver_sesion');
 
-Route::get('/persona', 'PruebaController@listar');
-Route::get('/persona/add', 'PruebaController@add');
+Route::get('/persona_tmp', 'PruebaController@listar');
+Route::get('/persona_tmp/add', 'PruebaController@add');
+
+Route::get('/persona', 'PersonaController@listar');
+Route::get('/persona/agregar', 'PersonaController@nuevo');
+Route::post('/persona/agregar', 'PersonaController@agregar');
+
+Route::get('/persona/editar/{id}', 'PersonaController@editar');
+Route::post('/persona/editar/{id}', 'PersonaController@actualizar');
+
+Route::get('/persona/borrar/{id}', 'PersonaController@borrar');
