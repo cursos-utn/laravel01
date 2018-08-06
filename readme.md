@@ -7,6 +7,7 @@ Incluye:
 * Manejo de rutas
 * Manejo de sesiones
 * Manejo básico de base de datos (SQLite)
+* Ejemplo básico para realizar el Alta, Baja, Modificación y Listado de personas (PersonaController)
 
 ## Como iniciar el proyecto
 
