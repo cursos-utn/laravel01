@@ -7,3 +7,17 @@ Incluye:
 * Manejo de rutas
 * Manejo de sesiones
 * Manejo básico de base de datos (SQLite)
+
+## Como iniciar el proyecto
+
+Antes de iniciar por primera vez este proyecto hay que instalar las dependencias de composer
+
+```
+composer install
+```
+
+Para iniciar la aplicación podemos utilizar la linea de comandos
+
+```
+php artisan serve --env=”development”
+```
